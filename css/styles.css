@@ -9,13 +9,14 @@ h1 {
     line-height: 1.5;
     color: white;
 }
-
+h2 {
+    font-family: "Montserrat";
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
 .container-fluid {
     padding: 3% 15%;
-}
-
-body {
-    font-family: "Montserrat";
 }
 
 /******************NAV BAR******************/
@@ -43,4 +44,48 @@ body {
 .title-image {
     width: 60%;
     transform: rotate(25deg);
+}
+/***************First Section********************/
+h3 {
+    font-weight: 1.5rem;
+    font-family: "Montserrat";
+}
+p {
+    color: #8f8f8f;
+}
+.row {
+    text-align: center;
+}
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+.icon {
+    color: #ef8172;
+    padding-bottom: 20px;
+}
+#features {
+    padding: 7% 15%;
+}
+/*************TESTIMONIAL SECTIONS***************/
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+/***********Press****************/
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
 }
